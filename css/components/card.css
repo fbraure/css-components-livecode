@@ -1,0 +1,45 @@
+.dribble-card{
+  margin: 0 auto;
+  width: 700px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.dribble-card-header{
+  display: flex;
+}
+.dribble-card-header img{
+  width: 200px;
+}
+.dribble-card-header > div{
+  padding-left: 150px;
+}
+
+.dribble-card-header h1 {
+margin: 0;
+}
+.dribble-card-header p {
+margin: 0;
+}
+.dribble-card-footer{
+  display: flex;
+  justify-content: space-between;
+}
+.dribble-card-footer img{
+  height: 70px;
+
+}
+.dribble-card-middle{
+  padding: 40px 0;
+}
+.fa-star{
+  color: goldenrod;
+}
+.fa-heart{
+  position: absolute;
+  color: red;
+  top: 28px;
+  left: 28px;
+}
